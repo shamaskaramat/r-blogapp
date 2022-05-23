@@ -1,0 +1,54 @@
+.register{
+    height: calc(100vh - 50px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image:
+    linear-gradient(rgba(225,225,225,0.5),rgba(225,225,225,0.5)),
+     url(https://images.pexels.com/photos/1097930/pexels-photo-1097930.jpeg?cs=srgb&dl=pexels-jess-bailey-designs-1097930.jpg&fm=jpg);
+    background-size: cover;
+
+}
+.registerTitle{
+    font-size: 80px;
+    font-family: 'Mea Culpa', cursive;
+    font-weight: 800;
+    color: rgb(51, 49, 49);
+}
+.registerForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.registerForm label{
+    margin: 10px 0;
+}
+.registerForm input{
+    padding: 10px;
+    background-color: #fff;
+    border: none;
+} 
+.registerButton{
+ background-color: teal;
+ color: #fff;
+ padding: 10px;
+ margin-top: 20px;
+ cursor: pointer;
+ border: none;
+ border-radius: 20px;
+ font-size: 18px;
+ font-family: 'Fugaz One', cursive;
+}
+.registerRegisterButton{
+    position: absolute;
+    top:80px;
+    right: 20px;
+    background-color:rgb(233, 129, 91);
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Fugaz One', cursive;
+}

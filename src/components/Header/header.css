@@ -1,0 +1,33 @@
+.hearder{
+    margin-top: 60px;
+    /* position:sticky; */
+}
+.headerTitles{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #444;
+    font-family: 'Urbanist', sans-serif;
+
+}
+.headerTitlesSmall{
+    position: absolute;
+    top: 25%;
+    font-size: 20px;
+    font-family: 'Fugaz One', cursive;
+    color: rgb(62, 65, 65);
+
+}
+.headerTitlesLg{
+    position: absolute;
+    top: 27%;
+    font-size: 100px;
+    font-family: 'Mea Culpa', cursive;
+
+}
+.headerImg{
+    width: 100%;
+    height: 450px;
+    margin-top: 80px;
+    object-fit: cover;
+}
